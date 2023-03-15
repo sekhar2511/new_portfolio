@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("pexels-pixabay-531880.jpg");
+}
+
+.ssk1 {
+    /* background-color: skyblue; */
+    /* background-image: url(""); */
+    color: aqua;
+    width: 170px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 110vh;
+
+}
+
+.ssk1 nav {
+    padding: 18px;
+}
+
+ul li a .kk {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* ul.li a:hover:not(.active) { 
+    background-color: #555;
+    color: white;
+}*/
+.ssk1 nav li  {
+    list-style: none;
+    font-size: 24px;
+    color: white;
+    padding: 25px 0;
+}
+
+
+.ssk1 nav li a:hover {
+    font-size: 31px;
+    color:lime;
+    text-shadow: chartreuse;
+    animation: anim2 500ms cubic-bezier(0.175, 0.885, 0.32, 0.275) infinite;
+}
+
+@keyframes anim2 {
+    0% {
+        opacity: 1;
+        transform: translateY(px);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    75% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.main {
+    /* background-color: rgb(214, 209, 241); */
+    /* background-image: url(""); */
+    width: 84vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: rgb(207, 163, 96);
+    background-image: url("old-954310.jpg");
+    color: dodgerblue;
+    background-repeat: no-repeat;
+    height: 78vh;
+    width: 76vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devpic img {
+    width: 300px;
+}
+
+.hello {
+    font-size: 55px;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.about {
+    font-size: 25px;
+}
+
+.buttons button {
+    padding: 5px 10px;
+    border-radius: 22px;
+    color: whitesmoke;
+    background-color: rgb(26, 130, 235);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3 px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+.ssk1 nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+button {
+    text-decoration: none;
+}
